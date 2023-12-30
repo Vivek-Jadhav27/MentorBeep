@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "501423638942",
+    "project_id": "bookbreeze-eb07a",
+    "storage_bucket": "bookbreeze-eb07a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:501423638942:android:808de307c2a50aa2feee8f",
+        "android_client_info": {
+          "package_name": "com.example.bookbreeze"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgi4st-NqOK30gTmrqo42rpOYpfot6bpg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

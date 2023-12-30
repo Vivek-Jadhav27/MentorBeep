@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/white"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:layout_width="150sp"
+        android:layout_height="150sp"
+        android:src="@drawable/notify"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center_horizontal"
+         />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome_back"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_gravity="center_horizontal"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_margin="20sp"
+        android:padding="2sp"
+        android:background="@drawable/input_bg"
+        >
+        <ImageView
+            android:layout_width="30sp"
+            android:layout_height="30sp"
+            android:layout_marginStart="5sp"
+            android:src="@drawable/email_icon"
+            app:tint="#ACABAB" />
+
+        <EditText
+            android:id="@+id/loginemail"
+            android:layout_marginHorizontal="10sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/email"
+            android:textColor="@color/black"
+            android:inputType="textEmailAddress"
+            android:textSize="16sp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginHorizontal="20sp"
+        android:layout_marginBottom="20sp"
+        android:padding="2sp"
+        android:background="@drawable/input_bg"
+        >
+        <ImageView
+            android:layout_width="30sp"
+            android:layout_height="30sp"
+            android:layout_marginStart="5sp"
+            android:src="@drawable/lock_icon"
+            app:tint="#ACABAB" />
+
+        <EditText
+            android:id="@+id/loginpassword"
+            android:layout_marginHorizontal="10sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/password"
+            android:textColor="@color/black"
+            android:inputType="textPassword"
+            android:textSize="16sp"
+            />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/loginbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/orange"
+        android:textSize="16sp"
+        android:padding="5sp"
+        android:layout_marginHorizontal="20sp"
+        android:layout_gravity="center"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="15sp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/don_t_have_an_account"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/signintext"
+            android:layout_marginStart="10sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sign_in"
+            android:textStyle="bold"
+            android:textColor="@color/orange"
+            android:textSize="16sp" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
